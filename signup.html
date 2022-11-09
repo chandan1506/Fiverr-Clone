@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+     <style>
+ center{
+font-size: 30px;
+        }
+#top{
+    display: grid;
+    grid-template-columns: repeat(1.fr);
+    height:600px;
+    width:35%;
+    border: 1px solid white;
+    margin: auto;
+    border-radius: 10px;
+   
+   text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+#top>div{
+    width:90%; 
+    height:30px;
+   border:1px solid gray;
+   margin:auto;
+   font-size: 20px;
+   padding:7px;
+   font-weight: bold;
+}
+h5{
+    font-size: 18px;
+}
+h4{
+    margin-bottom: 20px;
+}
+
+#top>div:nth-child(2){
+background-color: blue;
+}
+button{
+    width:92%;
+    margin: auto;
+background-color: green;
+border:none
+}
+input{
+    width:90%;
+    height:40px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+/* input:hover{
+
+} */
+ </style>
+</head>
+<body>
+  
+    
+ <div id="top">
+    <center><h4>join okkjob</h4></center> 
+    <div>Continue with Facebook</div>
+    <div>Continue with Google</div>
+    <div>Continue with Apple</div>
+    <h5>OR</h5>
+    <input type="text" placeholder="Enter your email">
+    <button onclick="fun()"><h3>Continue</h3></button>
+ <p>By joining i agree to receive emails from okkjob</p>
+ 
+<p>Already a memeber?<a href="login.html">sign in</a></p>
+</div>
+</body>
+</html>
+
+<script>
+  function fun(){
+    let x = document.querySelector("input").value;
+  
+ if(x == ""){
+   let para = document.createElement("p")
+   para.innerText = "Looks like this email is incomplete"
+   document.querySelector("button").append(para)
+ }else{
+    window.location.href = "login.html"
+ }
+    }
+</script>
