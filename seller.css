@@ -1,0 +1,312 @@
+.top{
+    width:100vw;
+    height: 80px;
+    display:flex;
+    justify-content: space-around;
+    background-color: blanchedalmond;
+    font-weight: bold;
+    font-size: 18px;
+}
+.top1{
+    margin-top: 30px;
+}
+.top2{
+    margin-top: 20px;
+}
+.top2>button{
+    background-color: white;
+    /* padding: 5px 10px; */
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 3px;
+    height:40px;
+    width:150px;
+    border:none;
+}
+.header{
+    width:95vw;
+    height:auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+
+}
+#anchor{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+}
+
+#input{
+    height:48px;
+    width:55%;
+    margin-right: -50px;
+    border-radius: 5px 0px 0px 5px;
+    border:0px;
+    padding-left: 20px;
+    border:1px solid black;
+}
+#button1{
+    background-color: black;
+    height:52px;
+    width:50px;
+    border-radius:0px 5px 5px 0px;
+    border:none;
+    color:white;
+    cursor:pointer;
+}
+#button2{
+    margin-top: 13px;
+    font-size: 20px;
+    width:40px;
+    height:40px;
+    background-color: red;
+    color:white;
+    border-radius: 90%;
+    border: none;
+    cursor: pointer;
+}
+#container{
+    width:82vw;
+    height:auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,280px) ;
+    margin-top: 20px;
+    gap:30px;
+    color:white;
+    margin:auto
+
+}
+
+#button3{
+    background-color: #1dbf73;
+    height:40px;
+    width:150px;
+    border-radius:5px;
+    border:none;
+    color:white;
+    cursor:pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+.one{
+    background-image: url("https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/generic_asset/asset/be9e63fa588288b35991ed8e8c6550d9-1614861018529/designer.jpg");
+    background-size: 100% 100% ;
+    display: flex;
+    align-items:flex-end;
+    padding-left: 20px;
+    
+}
+.two{
+    background-image: url("https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/generic_asset/asset/699482a05db770305ba6f2fc7139b98a-1614861401148/developer.jpg");
+    background-size: 100% 100% ;
+    display: flex;
+    align-items:flex-end;
+    padding-left: 20px;
+}
+.three{
+    background-image: url("https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/generic_asset/asset/cfe8db680cc2a8abc1b1e9b755011a4f-1614863917639/writer.jpg");
+    background-size: 100% 100% ;
+    display: flex;
+    align-items:flex-end;
+    padding-left: 20px;
+}
+.four{
+    background-image: url("https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/generic_asset/asset/be9e63fa588288b35991ed8e8c6550d9-1614861018521/video.jpg");
+    background-size: 100% 100% ;
+    display: flex;
+    align-items:flex-end;
+    padding-left: 20px;
+}
+.five{
+    background-image: url("https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/generic_asset/asset/be9e63fa588288b35991ed8e8c6550d9-1614861018522/musician.jpg");
+    background-size: 100% 100% ;
+    display: flex;
+    align-items:flex-end;
+    padding-left: 20px;
+}
+.six{
+    background-image: url("https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/generic_asset/asset/be9e63fa588288b35991ed8e8c6550d9-1614861018521/voiceover.jpg");
+    background-size: 100% 100% ;
+    display: flex;
+    align-items:flex-end;
+    padding-left: 20px;
+}
+.seven{
+    background-image: url("https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/generic_asset/asset/699482a05db770305ba6f2fc7139b98a-1614861401146/analyst.jpg");
+    background-size: 100% 100% ;
+    display: flex;
+    align-items:flex-end;
+    padding-left: 20px;
+}
+.one:hover{
+    cursor: pointer;
+
+}
+.eight{
+    background-color:#eee;
+    padding-top: 80px;
+    text-align: center;
+    color:#555;
+    font-size: 30px;
+}
+#middle{
+    margin-top: 40px;
+ height:auto;;
+ background-color: #eee; 
+ padding-top: 20px; 
+ margin-bottom: 50px; 
+}
+#mid{
+   width:90%;
+   height:200px; 
+   margin: auto;
+   display: flex;
+   justify-content: space-evenly;
+}
+#mid p{
+    color: #62646a;
+    font-size: 18px;
+}
+#mid h2{
+    text-align: center;
+    color:#555; 
+}
+#learn{
+    width:80%;
+    margin: auto;
+    height:auto;;
+    background-color: #eee; 
+    padding: 40px 50px 30px 50px; 
+    display: flex;
+}
+.text>h1{
+    margin-bottom: -10px;
+    font-size: 40px;
+}
+.span1{
+    font-size: 12px;
+}
+.text>h2{
+    font-size: 30px;
+    color:#555; 
+
+}
+.text>p{
+    color: #62646a;
+    font-size: 18px;  
+}
+#button4{
+    background-color: #1dbf73;
+    height:40px;
+    width:150px;
+    border-radius:5px;
+    border:none;
+    color:white;
+    cursor:pointer;
+    font-size: 15px;
+    font-weight: bold; 
+}
+.text{
+    margin-right: 70px;
+}
+.video{
+    margin-top: 150px;
+    color:white;
+    font-weight: bold;
+}
+#button5{
+    background-color: #1dbf73;
+    height:20px;
+    width:50px;
+    border:none;
+    color:white;
+    font-size: 12px;
+    font-weight: bold; 
+}
+.video>.span2{
+    color:gold;
+}
+.video>p{
+    font-size:18px ;
+}
+#buyer{
+    width:87%;
+    margin: auto;
+    height:auto;;
+    background-color: #eee; 
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: (2,250px);
+}
+#buyer img{
+    width:100%;
+    height:100%;
+}
+.line1 i{
+    color: #62646a;
+    font-size: 20px;
+}
+.line1 p{
+    color: #62646a;
+    font-size: 16px;
+}
+.line1{
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-bottom: 60px;
+}
+#lastpage{
+      height:400px;
+      background-color: #eee; 
+      margin-bottom: 50px;
+    
+}
+#footer{
+    color: #62646a;
+}
+#button5{
+    background-color: #1dbf73;
+    height:40px;
+    width:150px;
+    border-radius:5px;
+    border:none;
+    color:white;
+    cursor:pointer;
+    font-size: 15px;
+    font-weight: bold; 
+    margin-bottom: 50px;
+}
+#block{
+    display:flex ;
+    justify-content: space-evenly;
+    color: #62646a;
+    margin-top:30px ;
+}
+.element{
+    display:flex ;
+    justify-content: space-evenly;
+}
+.inline{
+    border:none;
+    background-color: transparent;
+    font-weight: bold;
+}
+.element h1,p{
+    margin-right: 20px;
+}
+.element>h1{
+   margin-top: -2px;
+}
+.index{
+    margin-top: 20px;
+}
+.inline:hover{
+    cursor: pointer;
+    border-radius: 7px;
+    background-color: #eee;
+
+}
+
