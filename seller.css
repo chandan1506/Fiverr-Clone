@@ -67,6 +67,63 @@
     border: none;
     cursor: pointer;
 }
+.content{
+    width:100vw;
+    height:770px;
+    position:relative; 
+   border:1px solid white;
+   color:white;
+
+}
+.content >video{
+   position:absolute;
+   z-index:-1;
+  width:100%;
+  height:auto;
+ 
+}
+.content-top{
+    text-align: center;
+    margin-top: 220px;
+
+}
+.content-top>h1{
+    font-size: 50px;
+}
+.content-top>p{
+    font-size: 28px;
+}
+.content-top>button{
+    background-color: #1dbf73;
+    height:50px;
+    width:180px;
+    border-radius:5px;
+    border:none;
+    color:white;
+    cursor:pointer;
+    font-size: 15px;
+    font-weight: bold; 
+    margin-bottom: 50px;
+}
+.content-bottom{
+    height:150px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(255,255,255,.3);
+    margin-top: 150px;
+   
+}
+.content-bottom p{
+font-size: 27px;
+margin-bottom: -30px;
+}
+.sec{
+text-align: center;
+}
+.content-bottom h1{
+font-size: 50px ;
+}
+
 #container{
     width:82vw;
     height:auto;
@@ -91,6 +148,7 @@
     font-size: 15px;
     font-weight: bold;
 }
+
 .one{
     background-image: url("https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/generic_asset/asset/be9e63fa588288b35991ed8e8c6550d9-1614861018529/designer.jpg");
     background-size: 100% 100% ;
