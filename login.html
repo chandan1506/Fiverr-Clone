@@ -69,8 +69,10 @@
            <div>Continue with Google</div>
            <div>Continue with Apple</div>
            <h5>OR</h5>
-           <input id="first" type="text" placeholder="Username">
-           <input id="second" type="text" placeholder="Password">
+           <input class="first" type="text" placeholder="Username">
+           <p class="wrong1"></p>
+           <input class="second" type="text" placeholder="Password">
+           <p class="wrong2"></p>
            <button onclick="fun()"><h3>Continue</h3></button>
         
        <p>Not a memeber yet?<a href="signup.html">Join now</a></p>
@@ -79,13 +81,21 @@
        </html>
 
 <script>
-     let First = document.querySelector("#first").value;
-     let second = document.querySelector("#second").value;
+     
 
 function fun(){
+let first = document.querySelector(".first").value;
+let second = document.querySelector(".second").value;
+if(first == ""){
+document.querySelector(".wrong1").innerText = "Username/Email is wrong"
+document.querySelector(".wrong1").style.color = "red"
+}else if(second == ""){
+document.querySelector(".wrong2").innerText = "Password is wrong"
+document.querySelector(".wrong2").style.color = "red"
+}else{
  window.location.href="sellerpage.html"
 }
- 
+}
  
 
 </script>

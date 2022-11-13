@@ -1,3 +1,7 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .top{
     width:100vw;
     height: 80px;
@@ -105,6 +109,9 @@
     font-weight: bold; 
     margin-bottom: 50px;
 }
+.content-top>button:hover{
+    background-color: green;
+}
 .content-bottom{
     height:150px;
     display: flex;
@@ -148,61 +155,106 @@ font-size: 50px ;
     font-size: 15px;
     font-weight: bold;
 }
-
+#button3:hover{
+    background-color: green;
+}
 .one{
     background-image: url("https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/generic_asset/asset/be9e63fa588288b35991ed8e8c6550d9-1614861018529/designer.jpg");
     background-size: 100% 100% ;
+    background-position: center;
     display: flex;
     align-items:flex-end;
     padding-left: 20px;
-    
+    overflow:hidden; 
+}
+.one:hover{
+    background-color:rgba(255, 255, 255, 0.7);
+    background-size: 120% 120% ;
 }
 .two{
     background-image: url("https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/generic_asset/asset/699482a05db770305ba6f2fc7139b98a-1614861401148/developer.jpg");
     background-size: 100% 100% ;
+    background-position: center;
     display: flex;
     align-items:flex-end;
     padding-left: 20px;
+    overflow:hidden; 
+}
+.two:hover{
+    background-color:rgba(255, 255, 255, 0.7);
+    background-size: 120% 120% ;
 }
 .three{
     background-image: url("https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/generic_asset/asset/cfe8db680cc2a8abc1b1e9b755011a4f-1614863917639/writer.jpg");
     background-size: 100% 100% ;
+    background-position: center;
     display: flex;
     align-items:flex-end;
     padding-left: 20px;
+    overflow:hidden; 
+
+}
+.three:hover{
+    background-color:rgba(255, 255, 255, 0.7);
+    background-size: 120% 120% ;
 }
 .four{
     background-image: url("https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/generic_asset/asset/be9e63fa588288b35991ed8e8c6550d9-1614861018521/video.jpg");
     background-size: 100% 100% ;
+    background-position: center;
     display: flex;
     align-items:flex-end;
     padding-left: 20px;
+    overflow:hidden; 
+}
+.four:hover{
+    background-color:rgba(255, 255, 255, 0.7);
+    background-size: 120% 120% ;
 }
 .five{
     background-image: url("https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/generic_asset/asset/be9e63fa588288b35991ed8e8c6550d9-1614861018522/musician.jpg");
     background-size: 100% 100% ;
+    background-position: center;
     display: flex;
     align-items:flex-end;
     padding-left: 20px;
+    overflow:hidden; 
 }
+.five:hover{
+    background-color:rgba(255, 255, 255, 0.7);
+    background-size: 120% 120% ;
+}
+
 .six{
     background-image: url("https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/generic_asset/asset/be9e63fa588288b35991ed8e8c6550d9-1614861018521/voiceover.jpg");
     background-size: 100% 100% ;
+    background-position: center;
     display: flex;
     align-items:flex-end;
     padding-left: 20px;
+    overflow:hidden; 
+}
+.six:hover{
+    background-color:rgba(255, 255, 255, 0.7);
+    background-size: 120% 120% ;
 }
 .seven{
     background-image: url("https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/generic_asset/asset/699482a05db770305ba6f2fc7139b98a-1614861401146/analyst.jpg");
     background-size: 100% 100% ;
+    background-position: center;
     display: flex;
     align-items:flex-end;
     padding-left: 20px;
+    overflow:hidden; 
 }
-.one:hover{
+.seven:hover{
+    background-color:rgba(255, 255, 255, 0.7);
+    background-size: 120% 120% ;
+}
+/* .one:hover{
     cursor: pointer;
 
-}
+} */
 .eight{
     background-color:#eee;
     padding-top: 80px;
@@ -267,6 +319,9 @@ font-size: 50px ;
     font-size: 15px;
     font-weight: bold; 
 }
+#button4:hover{
+    background-color: green;
+}
 .text{
     margin-right: 70px;
 }
@@ -317,15 +372,45 @@ font-size: 50px ;
     padding-bottom: 60px;
 }
 #lastpage{
-      height:400px;
+    padding-top:50px;
+    padding-bottom:50px;
+    margin-top:50px;
       background-color: #eee; 
       margin-bottom: 50px;
     
 }
+.FQ-container{
+    width:90%;
+    margin:auto;
+ display: flex;
+}
+.FQ-box{
+    width:50%;
+    height:auto;
+}
+.FQ-para{
+    width:80%;
+    border-radius: 5px;
+    background-color: white;
+    padding-left: 20px;
+}
+.FQ-para p{
+    display: none;
+    padding-bottom:20px;
+}
+.FQ-para:hover p{
+    display: block;
+}
+.FQ-para h4{
+padding: 20px;
+cursor: pointer;
+}
+.FQ-para h4 img{float:right;height:18px;margin-right:10px;}
+
 #footer{
     color: #62646a;
 }
-#button5{
+#button6{
     background-color: #1dbf73;
     height:40px;
     width:150px;
@@ -336,6 +421,9 @@ font-size: 50px ;
     font-size: 15px;
     font-weight: bold; 
     margin-bottom: 50px;
+}
+#button6:hover{
+background-color: green;
 }
 #block{
     display:flex ;
