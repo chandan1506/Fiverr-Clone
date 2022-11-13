@@ -58,6 +58,7 @@ a{
 /* input:hover{
 
 } */
+
  </style>
 </head>
 <body>
@@ -70,6 +71,7 @@ a{
     <div>Continue with Apple</div>
     <h5>OR</h5>
     <input type="text" placeholder="Enter your email">
+    <p class="hidden"></p>
     <button onclick="fun()"><h3>Continue</h3></button>
  <p>By joining i agree to receive emails from okkjob</p>
  
@@ -83,9 +85,9 @@ a{
     let x = document.querySelector("input").value;
   
  if(x == ""){
-   let para = document.createElement("p")
-   para.innerText = "Looks like this email is incomplete"
-   document.querySelector("button").append(para)
+document.querySelector(".hidden").innerText = "Looks like this email is incomplete"
+document.querySelector(".hidden").style.color = "red"
+
  }else{
     window.location.href = "login.html"
  }
