@@ -4,7 +4,7 @@
  <h2> An online platform that brings freelancers at one place around the globe.</h2>
 <br>
 
-This is a Fiverr clone project where you can visit Landing Page that will contain decent carousel and all informations regarding the website.and you can also visit to Seller Page to know more about thow to become seller with this website.
+This is a Fiverr clone project where you can visit Landing Page that will contain decent carousel and all informations regarding the website and you can also visit to Seller Page to know more about how to become seller with this website.
 
 
 ## Tech Stacks
